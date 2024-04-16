@@ -3,12 +3,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        String[] books = {"Война и мир", "Лев Николаевич Толстой", "Преступление и наказание", "Федор Михайлович Достоевский", "Александр Сергеевич Пушкин", "Руслан и Людмила"};
-        for (int i = 0; i < books.length; i++) {
-            if (i % 2 == 0) {
-                System.out.printf("\""+"%s"+"\", "+"%s%n",books[i],books[i+1]);
-            }
-        }
+        System.out.println("Hello World");
     }
 }
 
